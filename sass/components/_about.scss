@@ -1,0 +1,30 @@
+.about {
+  padding-top: 0;
+}
+
+.about__list {
+  display: flex;
+  gap: 30px;
+}
+
+.about__item {
+  position: relative;
+}
+
+.about__decr {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--transp-bg-color);
+
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+}

@@ -1,0 +1,33 @@
+.benefits__list {
+  display: flex;
+}
+
+.benefits__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.benefits__icons {
+  display: block;
+  background-color: var(--team-bg-color);
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.benefits__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.benefits__descr {
+  line-height: calc(24 / 14);
+  color: var(--description-text-color);
+}

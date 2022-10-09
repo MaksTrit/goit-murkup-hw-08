@@ -1,0 +1,20 @@
+@import './utils/vars';
+@import './base/reset';
+@import './base/base';
+@import './utils/visually-hidden';
+
+// Components styles
+@import './components/logo';
+@import './components/page-header';
+@import './components/page-footer';
+
+@import './components/modal';
+@import './components/hero';
+
+@import './components/benefits';
+@import './components/about';
+@import './components/team';
+@import './components/clients';
+
+@import './components/projects-filters';
+@import './components/projects';
