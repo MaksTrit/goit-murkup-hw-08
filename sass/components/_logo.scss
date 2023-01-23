@@ -2,8 +2,8 @@
   font-family: var(--logo-font);
   color: var(--header-logo-color);
   font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
+  font-size: 24px;
+  line-height: calc(28 / 24);
 
   color: var(--accent-project-color);
 
@@ -13,5 +13,9 @@
 
   &--light {
     color: var(--main-bg-color);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: calc(31 / 26);
   }
 }
